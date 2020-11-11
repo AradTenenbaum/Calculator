@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: royalblue;
+    background-color: lightsalmon;
+}
+
+.text-view {
+    margin: 1rem 0 3rem;
+    text-align: center;
+    width: 217px;
+    height: 60px;
+    font-size: 1.8rem;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: lightsalmon;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+body {
+    background: linear-gradient(45deg, red, blue);
+    height: 100%;
+}
